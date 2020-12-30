@@ -16,4 +16,10 @@ Step 02. Arquivo jaw baixado, basta abrir o terminal vulgo shell e abrir a pasta
 
 ![alt text](https://i.imgur.com/iHQfgTv.gif)
 
-## Como executar o Jenkins war no windows
+Step 03. Na pasta do arquivo baixado executar o comando java -jar jenkins.war
+
+![alt text](https://i.imgur.com/EyYdPlq.gif)
+
+Após esses passos anteriores a mágica do "next next" se inicia. No meio do processe será gerado um token para seguir com a instalação.
+
+## ⚙️ Como executar o Jenkins war no windows ?
