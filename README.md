@@ -42,10 +42,14 @@ Step 1.07: Após instalação basta criar usuario e senha realizar o acesso ao j
 
 ## ⚙️ Como executar o Jenkins war no windows ?
 
-Step 2.01: Após ter realizado os passos interiores “caso tenha fechado tudo” e deseje retornar o processo basta acessar o shell executar o comando do passo 1.03
+Step 2.01: Após ter realizado os passos anteriores “caso tenha fechado tudo” e deseje retornar o processo basta acessar o shell executar o comando do passo 1.03
 
 ![alt text](https://i.imgur.com/8sOaTkC.gif)
 
+### Referencia oficial: [ref](https://www.jenkins.io/doc/book/installing/war-file/)
+
 ## 🚀 Bora colocar a mão na massa ?
 
-Step 3.01: 
+Step 3.01: No ambiente logado bora criar um novo Job para configurar uma pipeline para execução dos test
+
+![alt text](https://i.imgur.com/uACCvc2.gif)
