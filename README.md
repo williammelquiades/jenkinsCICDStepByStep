@@ -149,7 +149,7 @@ stage('Test Execution Stage'){
 
 # fluxo final...!
 
-## 📦 Resultado final experado !
+## :dart: 📦 Resultado final !
 
 O retorno por ser verificado no log gerado pelo gráfico gerado clicado em cada um dos logs gerados nos passos ou verificando a saída do console da execução.
 
