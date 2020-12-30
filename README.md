@@ -4,7 +4,7 @@
 
 ## 🛠️ Como Instalar/Configurar o Jenkins no windows?
 
-**Step 1.01:** No Windows o Jenkins pode ser instalado com o famoso “next next finish”, mas ficamos neste step by step com a execução do arquivo war diretamento no ruindows.
+**Step 1.01:** No Windows o Jenkins pode ser instalado com o famoso “next next finish”, mas ficamos neste step by step com a execução do arquivo war diretamente no ruindows.
 
 Bastas acessar o site oficial do Jenkins [Click aqui!](https://www.jenkins.io/) e buscar pela versão desejada ou suportada pelo sua maquina.
 
@@ -26,15 +26,15 @@ Exemplo da chave durante a instalação gerada: ![alt text](https://i.imgur.com/
 
 **Step 1.04:** Abrir o endereço/url padrão gerada para o jenkins no navegador, geralmente quase sempre será "http://127.0.0.1:8080/"
 
-**Step 1.05:** Neste passo basta copiar a cheve gerada no campo esperado e dar sequencia na instalação.
+**Step 1.05:** Neste passo basta copiar a chave gerada no campo esperado e dar sequencia na instalação.
 
 ![alt text](https://i.imgur.com/ilaqL2e.png)
 
-**Step 1.06:** Escolha os plugins necessario para utilização durante os tests (CD)
+**Step 1.06:** Escolha os plugins necessário para utilização durante os tests (CD)
 
 ![alt text](https://i.imgur.com/euW1BWw.png)
 
-**Step 1.07:** Após instalação basta criar usuario e senha realizar o acesso ao jenkins
+**Step 1.07:** Após instalação basta criar usuário e senha e realizar o acesso ao jenkins
 
 ![alt text](https://i.imgur.com/fTcupC1.png)
 
@@ -72,7 +72,7 @@ E a estrutura geral fica como apresentado nesta figura abaixo:
 
 **Step 3.04.1:** Descrição dos campos, 
 
-Para execução de complilação do projeto os stages podem ser organizados da seguinte forma para execução local dos testes
+Para execução e complilação do projeto os stages podem ser organizados da seguinte forma para execução local dos testes
 Ver arquivo de configuração em repositório: pipeline
 
 * Stage responsável por limpar o ambiente anterior:
@@ -143,6 +143,7 @@ stage('Test Execution Stage'){
             }
         }
  ```
+
 **Step 3.05:** Ao realizar a construção o processo gerados de forma gráfica (bonitinhas e organizada) como apresentado abaixo:
 
 ![alt text](https://i.imgur.com/un3ea2y.png)
@@ -151,7 +152,7 @@ stage('Test Execution Stage'){
 
 ## :dart: 📦 Resultado final !
 
-O retorno por ser verificado no log gerado pelo gráfico gerado clicado em cada um dos logs gerados nos passos ou verificando a saída do console da execução.
+O retorno da execução por ser verificado nos logs gerados pela "timeline", clicado em cada um dos logs é possível verificar a saída. Detalhes também podem ser visto pelo console da execução.
 
 ![alt text](https://i.imgur.com/Uln6pEP.gif)
 
