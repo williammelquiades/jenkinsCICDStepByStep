@@ -53,3 +53,24 @@ Step 2.01: Após ter realizado os passos anteriores “caso tenha fechado tudo�
 Step 3.01: No ambiente logado bora criar um novo Job para configurar uma pipeline para execução dos test
 
 ![alt text](https://i.imgur.com/uACCvc2.gif)
+
+Step 3.02: Marcações e parametrização para limpar os builds antigos evitando um acumulo de informação/arquivos no ambiente local
+
+![alt text](https://i.imgur.com/lAIeEWp.png)
+
+Step 3.03: No campo Build Triggers é definido o Schedule para agendamento de execução automática da pipeline
+
+![alt text](https://i.imgur.com/KByFWlU.png)
+
+Step 3.04: O Pipeline pode ser configurada no seguinte campo
+
+![alt text](https://i.imgur.com/hzIJPxI.png)
+
+E a estrutura geral fica como apresentado nesta figura abaixo:
+
+![alt text](https://i.imgur.com/kJXQw3T.png)
+
+Step 3.04.1: Descrição dos campos, 
+
+
+
