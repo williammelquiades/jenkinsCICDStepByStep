@@ -150,11 +150,17 @@ stage('Test Execution Stage'){
 
 # fluxo final...!
 
-## :dart: 📦 Resultado final !
+## :dart: Resultado final !
 
 O retorno da execução por ser verificado nos logs gerados pela "timeline", clicado em cada um dos logs é possível verificar a saída. Detalhes também podem ser visto pelo console da execução.
 
 ![alt text](https://i.imgur.com/Uln6pEP.gif)
+
+## ✒️ Referências
+
+* **Jenkins User Documentation** - *Jenkins doc*   - [Jenkins](https://www.jenkins.io/doc/)
+* **Os india** - *Tutoriais Marotos do Youtube*    - [Vídeos](https://www.youtube.com/watch?v=jYub11KETnY&list=PLlsKgYi2Lw72SS2xegfrqaa1TEAYKMthu&ab_channel=RahulRathore)
+* **Pesquisas da Deep Web** - *Sempre tem que ter* - [Eu mesmo]
 
 ---
 ⌨️ com ❤️ por [William Melquiades](https://github.com/williammelquiades)
