@@ -8,7 +8,7 @@ Step 01. No Windows o Jenkins pode ser instalado com o famoso “next next finis
 
 Bastas acessar o site oficial do Jenkins [Click aqui!](https://www.jenkins.io/) e buscar pela versão desejada ou suportada pelo sua maquina.
 
-![alt text](https://i.imgur.com/PaBXq3p.gifv)
+![alt text](https://i.imgur.com/PaBXq3p.gif)
 
 O que é o arquivo war? R: É uma versão Jenkins que pode ser instalada em qualquer sistema operacional ou plataforma que execute uma versão do Java suportada pelo Jenkins.
 
