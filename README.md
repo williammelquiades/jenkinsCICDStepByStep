@@ -72,5 +72,87 @@ E a estrutura geral fica como apresentado nesta figura abaixo:
 
 Step 3.04.1: Descrição dos campos, 
 
+Para execução de complilação do projeto os stages podem ser organizados da seguinte forma para execução local dos testes
 
+* Stage responsavel por limpar o ambiente anterior:
 
+```
+		stage('CleaanUp Stage'){
+            steps{
+                //define the single or multiple step
+                bat 'echo CleaanUp Stage'
+                cleanWs()
+            }
+        }
+```
+
+* Stage responsavel por realizar o clone do projeto no repositorio Github:
+
+```
+		stage('Git Checkout'){
+            steps{
+                 //define the single or multiple step
+                bat 'echo Git Checkout'
+                checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/williammelquiades/RestSharpNetCoreDesafioB2.git']]])
+            }
+		}
+```
+
+* Stage responsavel por restaurar os pacotes utilizados no projeto:
+
+```
+        stage('Restore Package Stage'){
+            steps{
+                 //define the single or multiple step
+                bat 'echo Restore Package'
+                bat '%nuget% restore RestSharpNetCoreDesafioB2.sln'
+            }
+        }
+```
+
+obs.: É utilizado o arquivo .exe da próprio sistema que é cadastrado como variável de ambiente após o agente para execução.
+
+```
+agent any
+    environment {
+        nuget = "C:\\Data\\jenkinsWar\\nuget.exe"
+    }
+```
+
+* Stage responsavel realizar o BUILD no projeto:
+```
+stage('Build Stage'){
+            steps{
+                 //define the single or multiple step
+                bat 'echo Build Stage'
+                bat "\"${tool 'Visual Studio 2019'}\" -verbosity:detailed RestSharpNetCoreDesafioB2.sln /p:Configuration=Release /p:Platform=\"Any CPU\""
+            }
+        }
+```
+
+* Stage responsavel por executar os test do pacote 
+
+```
+stage('Test Execution Stage'){
+            steps{
+                 //define the single or multiple step
+                bat 'echo Test Exeecution Started'
+                bat "\"${tool 'VSTest'}\" C:/Users/Dell/.jenkins/workspace/RestSharpAutomation/RestSharpNetCoreDesafioB2/bin/Release/netcoreapp3.1/RestSharpNetCoreDesafioB2.dll /InIsolation /Logger:html"
+                bat 'echo Test Exeecution Complete'
+            }
+        }
+ ```
+Step 3.05: Ao realizar a construção o processo gerados de forma gráfica (bonitinhas e organizada) como apresentado abaixo:
+
+![alt text](https://i.imgur.com/un3ea2y.png)
+
+# fluxo final...!
+
+## 📦 Resultado final experado !
+
+O retorno por ser verificado no log gerado pelo gráfico gerado clicado em cada um dos logs gerados nos passos ou verificando a saída do console da execução.
+
+![alt text](https://i.imgur.com/Uln6pEP.gif)
+
+---
+⌨️ com ❤️ por [William Melquiades](https://github.com/williammelquiades)

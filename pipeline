@@ -1,0 +1,59 @@
+pipeline {
+    
+    agent any
+    environment {
+        nuget = "C:\\Data\\jenkinsWar\\nuget.exe"
+    }
+    
+    stages{
+        
+        stage('CleaanUp Stage'){
+            steps{
+                //define the single or multiple step
+                bat 'echo CleaanUp Stage'
+                //cleanWs notFailBuild: true
+                cleanWs()
+            }
+        }
+        
+        stage('Git Checkout'){
+            steps{
+                 //define the single or multiple step
+                bat 'echo Git Checkout'
+                checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/williammelquiades/RestSharpNetCoreDesafioB2.git']]])
+            }
+        }
+
+        stage('Restore Package Stage'){
+            steps{
+                 //define the single or multiple step
+                bat 'echo Restore Package'
+                bat '%nuget% restore RestSharpNetCoreDesafioB2.sln'
+
+            }
+        }
+        
+        stage('Build Stage'){
+            steps{
+                 //define the single or multiple step
+                bat 'echo Build Stage'
+                bat "\"${tool 'Visual Studio 2019'}\" -verbosity:detailed RestSharpNetCoreDesafioB2.sln /p:Configuration=Release /p:Platform=\"Any CPU\""
+            }
+        }
+        
+        stage('Deploy Application'){
+            steps{
+                bat 'echo Application Deploy'
+            }
+        }
+        
+        stage('Test Execution Stage'){
+            steps{
+                 //define the single or multiple step
+                bat 'echo Test Exeecution Started'
+                bat "\"${tool 'VSTest'}\" C:/Users/Dell/.jenkins/workspace/RestSharpAutomation/RestSharpNetCoreDesafioB2/bin/Release/netcoreapp3.1/RestSharpNetCoreDesafioB2.dll /InIsolation /Logger:html"
+                bat 'echo Test Exeecution Complete'
+            }
+        }
+    }
+}
