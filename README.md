@@ -49,7 +49,7 @@ Exemplo da chave gerada durante a instalação:
 
 ![alt text](https://i.imgur.com/8sOaTkC.gif)
 
-### Referencia oficial: [ref](https://www.jenkins.io/doc/book/installing/war-file/)
+### Referência oficial: [ref](https://www.jenkins.io/doc/book/installing/war-file/)
 
 ## 🚀 Bora colocar a mão na massa ?
 
