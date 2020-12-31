@@ -73,7 +73,7 @@ E a estrutura geral fica como apresentado nesta figura abaixo:
 
 ![alt text](https://i.imgur.com/kJXQw3T.png)
 
-**Step 3.04.1:** Descrição dos campos, 
+**Step 3.04.1:** Descrição dos estagios usados em um projeto, 
 
 Para execução e complilação do projeto os stages podem ser organizados da seguinte forma para execução local dos testes
 Ver arquivo de configuração em repositório: pipeline
