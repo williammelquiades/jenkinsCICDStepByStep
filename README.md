@@ -60,6 +60,8 @@ Exemplo da chave gerada durante a instalação:
 
 ### Referência oficial: [ref](https://www.jenkins.io/doc/book/installing/war-file/)
 
+- [Voltar a Tabela de Conteúdos](#index)
+
 ## <div id="mao_massa" /> 🚀 Bora colocar a mão na massa ?
 
 **Step 3.01:** No ambiente logado bora criar um novo Job para configurar uma pipeline para execução dos test
@@ -166,6 +168,8 @@ stage('Test Execution Stage'){
 
 ![alt text](https://i.imgur.com/un3ea2y.png)
 
+- [Voltar a Tabela de Conteúdos](#index)
+
 # fluxo final...!
 
 ## <div id="result_final" /> :dart: Resultado final !
@@ -174,11 +178,14 @@ O retorno da execução por ser verificado nos logs gerados pela "timeline", cli
 
 ![alt text](https://i.imgur.com/Uln6pEP.gif)
 
+
 ## <div id="refencia" /> ✒️ Referências 
 
 * **Jenkins User Documentation** - *Jenkins doc*   - [Jenkins](https://www.jenkins.io/doc/)
 * **Os india** - *Tutoriais Marotos do Youtube*    - [Vídeos](https://www.youtube.com/watch?v=jYub11KETnY&list=PLlsKgYi2Lw72SS2xegfrqaa1TEAYKMthu&ab_channel=RahulRathore)
 * **Pesquisas da Deep Web** - *Sempre tem que ter* - [Eu mesmo]
+
+- [Voltar a Tabela de Conteúdos](#index)
 
 ---
 ⌨️ com ❤️ por [William Melquiades](https://github.com/williammelquiades)
