@@ -1,11 +1,11 @@
 ## Jenkins step by step for testers in windows
 
 ## <div id="index" />Tabela de Conteúdos
-- [Como Instalar/Configurar o Jenkins no windows?](#Config_Jenkins)
-- [Como executar o Jenkins war no windows ?](#Jenkins_war)
-- [Bora colocar a mão na massa ?](#mao_massa)
-- [Resultado final !](#result_final)
-- [Referências](#refencia)
+- [1. Como Instalar/Configurar o Jenkins no windows?](#Config_Jenkins)
+- [2. Como executar o Jenkins war no windows ?](#Jenkins_war)
+- [3. Bora colocar a mão na massa ?](#mao_massa)
+- [4. Resultado final !](#result_final)
+- [5. Referências](#refencia)
 
 # Bora começar!
 
@@ -48,7 +48,7 @@ Exemplo da chave gerada durante a instalação:
 
 ![alt text](https://i.imgur.com/fTcupC1.png)
 
-- [Voltar a Tabela de Conteúdos](#index)
+- [:leftwards_arrow_with_hook: Voltar a Tabela de Conteúdos](#index)
 
 # Segue o fluxo...!
 
@@ -60,7 +60,7 @@ Exemplo da chave gerada durante a instalação:
 
 ### Referência oficial: [ref](https://www.jenkins.io/doc/book/installing/war-file/)
 
-- [Voltar a Tabela de Conteúdos](#index)
+- [:leftwards_arrow_with_hook: Voltar a Tabela de Conteúdos](#index)
 
 ## <div id="mao_massa" /> 🚀 Bora colocar a mão na massa ?
 
@@ -168,7 +168,7 @@ stage('Test Execution Stage'){
 
 ![alt text](https://i.imgur.com/un3ea2y.png)
 
-- [Voltar a Tabela de Conteúdos](#index)
+- [:leftwards_arrow_with_hook: Voltar a Tabela de Conteúdos](#index)
 
 # fluxo final...!
 
@@ -185,7 +185,7 @@ O retorno da execução por ser verificado nos logs gerados pela "timeline", cli
 * **Os india** - *Tutoriais Marotos do Youtube*    - [Vídeos](https://www.youtube.com/watch?v=jYub11KETnY&list=PLlsKgYi2Lw72SS2xegfrqaa1TEAYKMthu&ab_channel=RahulRathore)
 * **Pesquisas da Deep Web** - *Sempre tem que ter* - [Eu mesmo]
 
-- [Voltar a Tabela de Conteúdos](#index)
+- [:leftwards_arrow_with_hook: Voltar a Tabela de Conteúdos](#index)
 
 ---
 ⌨️ com ❤️ por [William Melquiades](https://github.com/williammelquiades)
