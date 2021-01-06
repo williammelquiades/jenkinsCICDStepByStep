@@ -33,7 +33,7 @@ Exemplo da chave gerada durante a instalação:
 
 ![alt text](https://i.imgur.com/n9KS6It.png)
 
-**Step 1.04:** Após esse pontos está bastar abrir o "endereço/url" padrão usado pelo jenkins no navegador. Geralmente, quase sempre será 
+**Step 1.04:** Após esses pontos está bastar abrir o "endereço/url" padrão usado pelo jenkins no navegador. Geralmente, quase sempre será 
 "http://127.0.0.1:8080/"
 
 **Step 1.05:** Neste passo basta copiar a chave gerada durante a instalação do shell para dar sequência na instalação.
