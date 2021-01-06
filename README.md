@@ -4,8 +4,9 @@
 - [1. Como Instalar/Configurar o Jenkins no windows?](#Config_Jenkins)
 - [2. Como executar o Jenkins war no windows ?](#Jenkins_war)
 - [3. Bora colocar a mão na massa ?](#mao_massa)
-- [4. Resultado final !](#result_final)
-- [5. Referências](#refencia)
+- [4. Como "buildar" e testar o projeto ?](#process)
+- [5. Resultado final !](#result_final)
+- [6. Referências](#refencia)
 
 # Bora começar!
 
@@ -41,6 +42,7 @@ Exemplo da chave gerada durante a instalação:
 ![alt text](https://i.imgur.com/ilaqL2e.png)
 
 **Step 1.06:** Escolha os plugins necessários para utilização do processo da Pipeline, mas tenha em mente que os passos básicos são *Restore, Build & Test*.
+Na dúvida vá com a opção suggested que dá bom!
 
 ![alt text](https://i.imgur.com/euW1BWw.png)
 
@@ -64,7 +66,7 @@ Exemplo da chave gerada durante a instalação:
 
 ## <div id="mao_massa" /> 🚀 Bora colocar a mão na massa ?
 
-**Step 3.01:** No ambiente logado bora criar um novo Job para configurar uma pipeline para execução dos test
+**Step 3.01:** No ambiente logado bora criar um novo Job para configurar uma pipeline para execução dos tests
 
 ![alt text](https://i.imgur.com/uACCvc2.gif)
 
@@ -80,9 +82,11 @@ Exemplo da chave gerada durante a instalação:
 
 ![alt text](https://i.imgur.com/hzIJPxI.png)
 
-E a estrutura geral fica como apresentado nesta figura abaixo:
+A estrutura geral do script fica como apresentado nesta figura abaixo e log em seguinda "3.04.1" cada bloco é explicado com detalhes:
 
 ![alt text](https://i.imgur.com/kJXQw3T.png)
+
+## <div id="process" /> :clipboard: Como "buildar" e testar o projeto ?
 
 **Step 3.04.1:** Descrição dos estagios usados em um projeto, 
 
