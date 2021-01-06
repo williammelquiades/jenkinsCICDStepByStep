@@ -87,7 +87,7 @@ E a estrutura geral fica como apresentado nesta figura abaixo:
 **Step 3.04.1:** Descrição dos estagios usados em um projeto, 
 
 Para execução e complilação do projeto os stages podem ser organizados da seguinte forma para execução local dos testes
-Ver arquivo de configuração em repositório: pipeline.txt
+### Ver arquivo de configuração em repositório: pipeline.txt
 
 * Stage responsável por limpar o ambiente anterior:
 
