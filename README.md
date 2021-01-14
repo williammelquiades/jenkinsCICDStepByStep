@@ -168,7 +168,7 @@ stage('Test Execution Stage'){
 }
  ```
 
-**Step 3.05:** Ao realizar a construção o processo gerados de forma gráfica (bonitinhas e organizada) como apresentado abaixo:
+**Step 3.05:** Ao saldar o script com os stages, será criado uma forma gráfica (bonitinha e organizada) da pipeline como apresentado abaixo:
 
 ![alt text](https://i.imgur.com/un3ea2y.png)
 
